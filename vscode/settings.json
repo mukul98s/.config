@@ -1,0 +1,115 @@
+{
+  "editor.fontSize": 22,
+  "editor.tabSize": 2,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.fastScrollSensitivity": 5,
+  "editor.fontFamily": "Dank Mono",
+  "editor.lineHeight": 30,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontWeight": "600",
+  "editor.lineNumbers": "relative",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "expand",
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "breadcrumbs.enabled": false,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Prettier Config
+  "prettier.bracketSpacing": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.useEditorConfig": true,
+
+  // Git Config
+  "git.confirmSync": false,
+  "git.autofetch": false,
+
+  // Work Bench Config
+  "workbench.list.mouseWheelScrollSensitivity": 2,
+  "workbench.list.fastScrollSensitivity": 5,
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.reduceMotion": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00"
+  },
+  "workbench.colorTheme": "Night Owl",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+
+  // Language Specific Setting
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnSave": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": false
+  },
+
+  // Files Related Setting
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+    "**/*.exe": true,
+    "**/node_modules": true
+  },
+  "files.trimTrailingWhitespace": true,
+
+  // Other Settings
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "update.mode": "manual",
+  "json.schemas": [],
+  "window.zoomLevel": 1,
+  "telemetry.telemetryLevel": "off",
+
+  // Terminal Setting
+  "terminal.explorerKind": "integrated",
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": 700,
+  "terminal.integrated.letterSpacing": 1,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.shellIntegration.decorationIcon": "circle-outline"
+}
