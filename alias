@@ -1,0 +1,5 @@
+alias home="cd ~"	
+alias config="cd ~/Work/personal-projects/config-file"
+alias p="cd ~/Work/project/"
+alias pp="cd ~/Work/personal-projects/"
+alias cl="clear"
