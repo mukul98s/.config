@@ -46,3 +46,4 @@ function cmode()
 }
 
 alias home="cd ~"
+alias cl="clear"
