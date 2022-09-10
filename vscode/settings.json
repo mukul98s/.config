@@ -27,16 +27,13 @@
     "typescript": "typescriptreact"
   },
 
-  // Prettier Config
   "prettier.bracketSpacing": false,
   "prettier.vueIndentScriptAndStyle": true,
   "prettier.useEditorConfig": true,
 
-  // Git Config
   "git.confirmSync": false,
   "git.autofetch": false,
 
-  // Work Bench Config
   "workbench.list.mouseWheelScrollSensitivity": 2,
   "workbench.list.fastScrollSensitivity": 5,
   "terminal.integrated.cursorBlinking": true,
@@ -50,7 +47,6 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
 
-  // Language Specific Setting
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -86,7 +82,6 @@
     "editor.formatOnSave": false
   },
 
-  // Files Related Setting
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.exclude": {
@@ -95,7 +90,6 @@
   },
   "files.trimTrailingWhitespace": true,
 
-  // Other Settings
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "update.mode": "manual",
@@ -103,7 +97,6 @@
   "window.zoomLevel": 1,
   "telemetry.telemetryLevel": "off",
 
-  // Terminal Setting
   "terminal.explorerKind": "integrated",
   "terminal.integrated.fontFamily": "Dank Mono",
   "terminal.integrated.fontSize": 16,
