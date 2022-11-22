@@ -22,7 +22,7 @@ window:
   multiplier: 3
 
 ## Background opacity
-  opacity: 0.7 
+  opacity: 1
 
 ## Cursor
 cursor:
@@ -36,8 +36,8 @@ cursor:
 live_config_reload: true
 
 ## Shell
-#shell:
-#  program: /bin/zsh
+shell:
+  program: /usr/bin/fish
 #  args:
 #    - --login
 
@@ -46,72 +46,99 @@ font:
   # Normal (roman) font face
   normal:
     family: "operator mono"
-    style: Regular
+    style: "Light"
 
   # Bold font face
   bold:
     family: "operator mono"
-    style: Bold
+    style: Book
 
   # Italic font face
   italic:
     family: "operator mono"
-    style: Italic
+    style: Book Italic
 
   # Bold italic font face
   bold_italic:
     family: "operator mono"
-    style: Bold Italic
+    style: Italic
 
   # Point size
-  size: 15
+  size: 18
 
   # Offset
-  #offset:
-  #  x: 0
-  #  y: 0
+  offset:
+     x: 0 
+     y: 2 
 
   # Glyph offset
   #glyph_offset:
-  #  x: 0
-  #  y: 0
+  #  x: 2 
+  #  y: 2
 
 custom_cursor_colors: true
 
-# From the famous Cobalt2 sublime theme
-# Source : https://github.com/wesbos/cobalt2/tree/master/Cobalt2
+# Dracula theme for Alacritty
+# https://draculatheme.com/alacritty
+#
+# Color palette
+# https://spec.draculatheme.com
+#
+# Template
+# https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
 colors:
-  # Default colors
   primary:
-    background: '0x122637'
-    foreground: '0xffffff'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
+    background: '#282a36'
+    foreground: '#f8f8f2'
+    bright_foreground: '#ffffff'
   cursor:
-    text: '0x122637'
-    cursor: '0xf0cb09'
-
-  # Normal colors
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: '#44475a'
+      background: '#50fa7b'
+    focused_match:
+      foreground: '#44475a'
+      background: '#ffb86c'
+  footer_bar:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+  hints:
+    start:
+      foreground: '#282a36'
+      background: '#f1fa8c'
+    end:
+      foreground: '#f1fa8c'
+      background: '#282a36'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    text: CellForeground
+    background: '#44475a'
   normal:
-    black:   '0x000000'
-    red:     '0xff0000'
-    green:   '0x37dd21'
-    yellow:  '0xfee409'
-    blue:    '0x1460d2'
-    magenta: '0xff005d'
-    cyan:    '0x00bbbb'
-    white:   '0xbbbbbb'
-
-  # Bright colors
+    black: '#21222c'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#bd93f9'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#f8f8f2'
   bright:
-    black:   '0x545454'
-    red:     '0xf40d17'
-    green:   '0x3bcf1d'
-    yellow:  '0xecc809'
-    blue:    '0x5555ff'
-    magenta: '0xff55ff'
-    cyan:    '0x6ae3f9'
-    white:   '0xffffff'
+    black: '#6272a4'
+    red: '#ff6e6e'
+    green: '#69ff94'
+    yellow: '#ffffa5'
+    blue: '#d6acff'
+    magenta: '#ff92df'
+    cyan: '#a4ffff'
+    white: '#ffffff'
 
 
 key_bindings:
