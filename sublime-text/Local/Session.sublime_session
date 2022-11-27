@@ -1,0 +1,779 @@
+{
+	"file_history":
+	[
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/bussiness/WorkingHours.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/bussiness/Facility.tsx",
+		"/home/mukul98s/.config/sublime-text/Packages/User/LSP-typescript.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/LSP-typescript/LSP-typescript.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/User/LSP-tailwindcss.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/LSP-tailwindcss/LSP-tailwindcss.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mukul98s/.config/sublime-text/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/mukul98s/.config/sublime-text/Packages/User/Emmet.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/Emmet/Emmet.sublime-settings",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/constants/sidebarMenuList.ts",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/routes/RoutesConfig.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Profile.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Security.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/setup/steps/Step4.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Setting.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/components/dashboard/DashboardTabContainer.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/HiringPage.tsx",
+		"/home/mukul98s/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/AccessDatabase.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/package.json",
+		"/home/mukul98s/Work/project/bewtee.business.ui/public/index.html",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/api/global.ts",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AxiosContext.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step2.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step1.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step3.tsx",
+		"/home/mukul98s/.config/sublime-merge/Packages/User/Preferences.sublime-settings",
+		"/home/mukul98s/Downloads/alacritty-master/dracula.yml",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/DashboardWrapper.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Select.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/AsyncSelect.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Input.tsx",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/hooks/useCities.ts",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AuthContext.tsx",
+		"/home/mukul98s/.config/sublime-text/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/User/JsPrettier.sublime-settings",
+		"/home/mukul98s/Work/project/bewtee.business.ui/src/App.tsx",
+		"/home/mukul98s/.config/sublime-text/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/mukul98s/.config/sublime-text/Packages/ArcticTypescript/ArcticTypescript.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/User/ArcticTypescript.sublime-settings",
+		"/home/mukul98s/Work/project/bewtee.ui.staff/app/hooks/useCities.ts",
+		"/home/mukul98s/.config/sublime-text/Packages/User/Color Highlight.sublime-settings",
+		"/home/mukul98s/.config/sublime-text/Packages/Color Highlight/Color Highlight.sublime-settings",
+		"/run/media/mukul98s/Mukul/storage/tutorials/React-Native p2/code/Part 2/Section 7- Distribution/End/app/screens/UploadScreen.js"
+	],
+	"folder_history":
+	[
+		"/home/mukul98s/Work/project/million-dollar.com",
+		"/home/mukul98s/Work/project/bewtee",
+		"/home/mukul98s/Work/project/bewtee.com/resources/views",
+		"/home/mukul98s/Work/project/bewtee.business.ui",
+		"/home/mukul98s/Work/project/bewtee.com",
+		"/run/media/mukul98s/Mukul/storage/tutorials/React-Native p2/code/Part 2/Section 7- Distribution/End",
+		"/run/media/mukul98s/Mukul/storage/tutorials/React-Native p2/code/Part 2/Section 7- Distribution/End/app",
+		"/home/mukul98s/Work/personal-projects/dotfiles-public/.config/nvim"
+	],
+	"last_version": 4143,
+	"last_window_id": 27,
+	"log_indexing": false,
+	"next_update_check": 1669529798,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 750.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			69.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"justi",
+						"justify-between"
+					],
+					[
+						"DashB",
+						"DashboardWrapper"
+					],
+					[
+						"As",
+						"ASelect"
+					],
+					[
+						"citis",
+						"cities"
+					],
+					[
+						"defa",
+						"defaultOptions"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Menu",
+						"View: Toggle Menu"
+					],
+					[
+						"i",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: In",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"Mono",
+						"Monokai Pro: select theme"
+					],
+					[
+						"Packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 218.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/bussiness/Facility.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/constants/sidebarMenuList.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/routes/RoutesConfig.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Profile.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Security.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/setup/steps/Step4.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Setting.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/dashboard/DashboardTabContainer.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/HiringPage.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/AccessDatabase.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/package.json",
+				"/home/mukul98s/Work/project/bewtee.business.ui/public/index.html",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/api/global.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AxiosContext.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step2.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step1.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step3.tsx",
+				"/home/mukul98s/.config/sublime-merge/Packages/User/Preferences.sublime-settings",
+				"/home/mukul98s/Downloads/alacritty-master/dracula.yml",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/DashboardWrapper.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Select.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/AsyncSelect.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Input.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/hooks/useCities.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AuthContext.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/App.tsx",
+				"/home/mukul98s/.config/sublime-text/Packages/ArcticTypescript/ArcticTypescript.sublime-settings",
+				"/home/mukul98s/.config/sublime-text/Packages/User/ArcticTypescript.sublime-settings",
+				"/home/mukul98s/Work/project/bewtee.ui.staff/app/hooks/useCities.ts",
+				"/run/media/mukul98s/Mukul/storage/tutorials/React-Native p2/code/Part 2/Section 7- Distribution/End/app/screens/UploadScreen.js",
+				"/home/mukul98s/.config/sublime-text/Packages/User/ActualVim.sublime-settings",
+				"/home/mukul98s/.bashrc",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/Header.tsx",
+				"/home/mukul98s/Dropbox/Obsidian/.obsidian/appearance.json",
+				"/home/mukul98s/Dropbox/Obsidian/.obsidian/graph.json"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 188.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 72.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 212.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 84.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Facil",
+						"src/pages/bussiness/Facility.tsx"
+					],
+					[
+						"Profile",
+						"src/pages/settings/Profile.tsx"
+					],
+					[
+						"AuthCon",
+						"src/context/AuthContext.tsx"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 340.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 1000.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"justi",
+						"justify-between"
+					],
+					[
+						"DashB",
+						"DashboardWrapper"
+					],
+					[
+						"As",
+						"ASelect"
+					],
+					[
+						"citis",
+						"cities"
+					],
+					[
+						"defa",
+						"defaultOptions"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts/simple/footer.blade.php",
+					"settings":
+					{
+						"buffer_size": 269,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts/simple/master.blade.php",
+					"settings":
+					{
+						"buffer_size": 4184,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Menu",
+						"View: Toggle Menu"
+					],
+					[
+						"i",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: In",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"Mono",
+						"Monokai Pro: select theme"
+					],
+					[
+						"Packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 218.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/mukul98s/Work/project/million-dollar.com",
+				"/home/mukul98s/Work/project/million-dollar.com/resources",
+				"/home/mukul98s/Work/project/million-dollar.com/resources/views",
+				"/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts",
+				"/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts/simple"
+			],
+			"file_history":
+			[
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/bussiness/Facility.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/constants/sidebarMenuList.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/routes/RoutesConfig.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Profile.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Security.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/setup/steps/Step4.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/settings/Setting.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/dashboard/DashboardTabContainer.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/HiringPage.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/hiring/AccessDatabase.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/package.json",
+				"/home/mukul98s/Work/project/bewtee.business.ui/public/index.html",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/api/global.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AxiosContext.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step2.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step1.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/pages/signup/Step3.tsx",
+				"/home/mukul98s/.config/sublime-merge/Packages/User/Preferences.sublime-settings",
+				"/home/mukul98s/Downloads/alacritty-master/dracula.yml",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/DashboardWrapper.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Select.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/AsyncSelect.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/temp/Input.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/hooks/useCities.ts",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/context/AuthContext.tsx",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/App.tsx",
+				"/home/mukul98s/.config/sublime-text/Packages/ArcticTypescript/ArcticTypescript.sublime-settings",
+				"/home/mukul98s/.config/sublime-text/Packages/User/ArcticTypescript.sublime-settings",
+				"/home/mukul98s/Work/project/bewtee.ui.staff/app/hooks/useCities.ts",
+				"/run/media/mukul98s/Mukul/storage/tutorials/React-Native p2/code/Part 2/Section 7- Distribution/End/app/screens/UploadScreen.js",
+				"/home/mukul98s/.config/sublime-text/Packages/User/ActualVim.sublime-settings",
+				"/home/mukul98s/.bashrc",
+				"/home/mukul98s/Work/project/bewtee.business.ui/src/components/Header.tsx",
+				"/home/mukul98s/Dropbox/Obsidian/.obsidian/appearance.json",
+				"/home/mukul98s/Dropbox/Obsidian/.obsidian/graph.json"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 188.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"folders":
+			[
+				{
+					"path": "/home/mukul98s/Work/project/million-dollar.com"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts/simple/footer.blade.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 269,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										268,
+										268
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": false,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/mukul98s/Work/project/million-dollar.com/resources/views/layouts/simple/master.blade.php",
+							"selected": true,
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 4184,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1265,
+										1265
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 72.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 212.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1920,1006,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 84.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Facil",
+						"src/pages/bussiness/Facility.tsx"
+					],
+					[
+						"Profile",
+						"src/pages/settings/Profile.tsx"
+					],
+					[
+						"AuthCon",
+						"src/context/AuthContext.tsx"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/opt/sublime_text"
+				}
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 340.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 27,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

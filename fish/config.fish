@@ -2,7 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set fish_greeting ""
+set fish_greeting "I'm great! Mukul Sharma is the Greatest!"
+
+set -gx TERM xterm-256color
 
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 1
@@ -21,3 +23,6 @@ alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
 alias g git
+alias doc "cd ~/Documents"
+alias dow "cd ~/Downloads"
+alias app "cd ~/Application"
