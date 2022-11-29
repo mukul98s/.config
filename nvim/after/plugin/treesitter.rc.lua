@@ -12,15 +12,12 @@ ts.setup {
   },
   ensure_installed = {
     "tsx",
-    "php",
     "json",
-    "yaml",
     "css",
     "html",
     "lua",
     "javascript",
     "typescript",
-    "vue"
   },
   autotag = {
     enable = true,
