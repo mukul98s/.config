@@ -1,7 +1,7 @@
 {
   "editor.fontSize": 22,
   "editor.tabSize": 2,
-  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.mouseWheelScrollSensitivity": 10,
   "editor.fastScrollSensitivity": 5,
   "editor.fontFamily": "Dank Mono",
   "editor.lineHeight": 30,
@@ -10,7 +10,7 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": false,
   "editor.fontWeight": "600",
   "editor.lineNumbers": "relative",
   "editor.cursorStyle": "line",
@@ -77,10 +77,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar",
-    "editor.formatOnSave": false
-  },
 
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -97,12 +93,14 @@
   "window.zoomLevel": 1,
   "telemetry.telemetryLevel": "off",
 
-  "terminal.explorerKind": "integrated",
+  "terminal.explorerKind": "external",
   "terminal.integrated.fontFamily": "Dank Mono",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontWeight": 700,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": 600,
   "terminal.integrated.letterSpacing": 1,
   "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.shellIntegration.enabled": true,
-  "terminal.integrated.shellIntegration.decorationIcon": "circle-outline"
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.external.linuxExec": "alacritty",
+  "terminal.external.osxExec": "fish",
+  "terminal.integrated.defaultProfile.linux": "fish"
 }
