@@ -13,4 +13,3 @@ lspconfig.setup {
 }
 
 require 'lspconfig'.tailwindcss.setup {}
-require 'lspconfig'.clangd.setup {}
