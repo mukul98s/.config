@@ -11,13 +11,18 @@ ts.setup {
     disable = {},
   },
   ensure_installed = {
+    "markdown",
+    "markdown_inline",
     "tsx",
+    "toml",
+    "fish",
+    "php",
     "json",
+    "yaml",
+    "swift",
     "css",
     "html",
-    "lua",
-    "javascript",
-    "typescript",
+    "lua"
   },
   autotag = {
     enable = true,

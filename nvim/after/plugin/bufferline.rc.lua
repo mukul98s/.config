@@ -7,7 +7,7 @@ bufferline.setup({
     separator_style = 'slant',
     always_show_bufferline = false,
     show_buffer_close_icons = false,
-    show_close_icon = false,
+    show_close_icon = true,
     color_icons = true
   },
   highlights = {
@@ -24,7 +24,7 @@ bufferline.setup({
     },
     buffer_selected = {
       fg = '#fdf6e3',
-      bold = false,
+      bold = true,
     },
     fill = {
       bg = '#073642'
