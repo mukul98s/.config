@@ -12,15 +12,21 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
-# You must call it on initialization or listening to directory switching won't work
-load_nvm > /dev/stderr
+# Toggle Battery Conversation Mode
+function cmode
+    echo (if set -q argv[1]; echo $argv[1]; else; echo 1; end) | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode > /dev/null
+end
 
-alias cl "clear"
-alias pp "cd ~/work/personal-projects"
-alias p "cd ~/work/project"
+
+# You must call it on initialization or listening to directory switching won't work
+load_nvm >/dev/stderr
+
+alias cl clear
+alias pp "cd ~/Code/personal-project/"
+alias p "cd ~/Code/project"
 alias ho "cd ~"
 alias b "cd .."
-alias conf "cd ~/work/personal-projects/.config"
+alias conf "cd ~/Code/.config/"
 alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
@@ -29,9 +35,9 @@ alias g git
 alias doc "cd ~/Documents"
 alias dow "cd ~/Downloads"
 alias app "cd ~/Application"
-alias learn "cd ~/work/learn"
+alias learn "cd ~/Code/learn"
 alias key "cd ~/Documents/keys"
-alias update "sudo dnf update --exclude=brave-browser,firefox,code"
+alias update "sudo dnf update --exclude=brave-browser,firefox,codium"
 alias update-all "sudo dnf update"
 alias pas "php artisan serve"
 alias yrs "yarn run start"
