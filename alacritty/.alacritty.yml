@@ -22,7 +22,7 @@ window:
   multiplier: 3
 
 ## Background opacity
-  opacity: 1
+  opacity: 0.9 
 
 ## Cursor
 cursor:
@@ -45,22 +45,22 @@ shell:
 font:
   # Normal (roman) font face
   normal:
-    family: "operator mono"
+    family: "dank mono"
     style: "Light"
 
   # Bold font face
   bold:
-    family: "operator mono"
+    family: "dank mono"
     style: Book
 
   # Italic font face
   italic:
-    family: "operator mono"
+    family: "dank mono"
     style: Book Italic
 
   # Bold italic font face
   bold_italic:
-    family: "operator mono"
+    family: "dank mono"
     style: Italic
 
   # Point size
@@ -73,8 +73,8 @@ font:
 
   # Glyph offset
   #glyph_offset:
-  #  x: 2 
-  #  y: 2
+    #x: 2 
+    #y: 2
 
 custom_cursor_colors: true
 
