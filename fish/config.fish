@@ -5,6 +5,7 @@ end
 set fish_greeting "I'm great! Mukul Sharma is the Greatest!"
 
 set -gx TERM xterm-256color
+set -gx EDITOR nvim
 
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 1
@@ -14,7 +15,7 @@ set -g theme_hostname always
 
 # Toggle Battery Conversation Mode
 function cmode
-    echo (if set -q argv[1]; echo $argv[1]; else; echo 1; end) | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode > /dev/null
+    echo (if set -q argv[1]; echo $argv[1]; else; echo 1; end) | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode >/dev/null
 end
 
 
