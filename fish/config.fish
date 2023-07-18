@@ -9,7 +9,7 @@ set -x TMUX_PLUGIN_MANAGER_PATH "~/.config/tmux/plugins/tpm"
 set -gx TERM xterm-256color
 set -gx EDITOR nvim
 
-set -g theme_color_scheme terminal-dark
+set -g theme_tide_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_display_user yes
 set -g theme_hide_hostname no
@@ -19,7 +19,6 @@ set -g theme_hostname always
 function cmode
     echo (if set -q argv[1]; echo $argv[1]; else; echo 1; end) | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode >/dev/null
 end
-
 
 # You must call it on initialization or listening to directory switching won't work
 load_nvm >/dev/stderr
@@ -40,8 +39,8 @@ alias dow "cd ~/Downloads"
 alias app "cd ~/Application"
 alias learn "cd ~/Code/learn"
 alias key "cd ~/Documents/keys"
-alias update "sudo dnf update --exclude=brave-browser,firefox,codium"
-alias update-all "sudo dnf update"
+alias update "sudo dnf update --exclude=brave-browser,brave-browser-beta,firefox,codium,golang,brave-keyring"
+alias update-all "sudo dnf update --exclude=brave-browser"
 alias pas "php artisan serve"
 alias yrs "yarn run start"
 alias nrs "npm run start"

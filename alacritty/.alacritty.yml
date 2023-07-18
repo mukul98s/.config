@@ -1,7 +1,7 @@
 ## Set environment variables
 env:
   TERM: alacritty
-  WINIT_X11_SCALE_FACTOR: '1.0'
+  WINIT_X11_SCALE_FACTOR: "1.0"
 
 ## Terminal window settings
 window:
@@ -10,19 +10,19 @@ window:
     lines: 24
 
   padding:
-    x: 12
-    y: 12
+    x: 8
+    y: 8
 
   decorations: none
   startup_mode: Windowed
   dynamic_title: true
 
-## scrolling
+  ## scrolling
   history: 10000
   multiplier: 3
 
-## Background opacity
-  opacity: 0.9 
+  ## Background opacity
+  opacity: 0.9
 
 ## Cursor
 cursor:
@@ -68,50 +68,44 @@ font:
 
   # Offset
   offset:
-     x: 0 
-     y: 2 
+    x: 0
+    y: 0
 
   # Glyph offset
   #glyph_offset:
-    #x: 2 
-    #y: 2
+  # x: 0
+  # y: 0
 
 custom_cursor_colors: true
 
-# Colors (Gruvbox dark)
 colors:
-  # Default colors
   primary:
-    # hard contrast: background = '0x1d2021'
-    background: '0x282828'
-    # soft contrast: background = '0x32302f'
-    foreground: '0xebdbb2'
-
-  # Normal colors
+    background: "0x1d1f21"
+    foreground: "0xc5c8c6"
+  cursor:
+    text: "0x1d1f21"
+    cursor: "0xc5c8c6"
   normal:
-    black:   '0x282828'
-    red:     '0xcc241d'
-    green:   '0x98971a'
-    yellow:  '0xd79921'
-    blue:    '0x458588'
-    magenta: '0xb16286'
-    cyan:    '0x689d6a'
-    white:   '0xa89984'
-
-  # Bright colors
+    black: "0x1d1f21"
+    red: "0xcc6666"
+    green: "0xb5bd68"
+    yellow: "0xf0c674"
+    blue: "0x81a2be"
+    magenta: "0xb294bb"
+    cyan: "0x8abeb7"
+    white: "0xc5c8c6"
   bright:
-    black:   '0x928374'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xebdbb2'
-
+    black: "0x7c7c7c"
+    red: "0xff6c6b"
+    green: "0x98c379"
+    yellow: "0xffd05a"
+    blue: "0x8ec07c"
+    magenta: "0xff73fd"
+    cyan: "0xa9bdbd"
+    white: "0xefefef"
 
 key_bindings:
-    # (Windows, Linux, and BSD only)
-  - { key: V,         mods: Control|Shift, action: Paste                       }
-  - { key: C,         mods: Control|Shift, action: Copy                        }
-  - { key: N,         mods: Control|Shift, action: CreateNewWindow }
+  # (Windows, Linux, and BSD only)
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: N, mods: Control|Shift, action: CreateNewWindow }
