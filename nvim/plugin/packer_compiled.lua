@@ -149,10 +149,10 @@ _G.packer_plugins = {
     path = "/home/mukul98s/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  moonfly = {
+  nightfly = {
     loaded = true,
-    path = "/home/mukul98s/.local/share/nvim/site/pack/packer/start/moonfly",
-    url = "https://github.com/bluz71/vim-moonfly-colors"
+    path = "/home/mukul98s/.local/share/nvim/site/pack/packer/start/nightfly",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
   },
   ["null-ls.nvim"] = {
     loaded = true,
