@@ -26,9 +26,9 @@ end
 load_nvm > /dev/stderr
 
 
-alias cl clear
-alias pp "cd ~/Development/personal-project/"
-alias p "cd ~/Development/project"
+alias cl=clear
+alias pp="cd ~/Development/personal-project/"
+alias p="cd ~/Development/project"
 alias ho "cd ~"
 alias b "cd .."
 alias conf "cd ~/Code/.config/"
@@ -45,7 +45,7 @@ alias key "cd ~/Documents/keys"
 alias pas "php artisan serve"
 alias yrs "yarn run start"
 alias nrs "npm run start"
-alias treckme_serve "ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@3.110.104.2"
-alias bewtee_server "ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@15.206.208.83"
+alias treckme_serve="ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@3.110.104.2"
+alias bewtee_server="ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@15.206.208.83"
 ~
 
