@@ -1,17 +1,21 @@
-require("mukul98s.plugins-setup")
-require("mukul98s.core.options")
-require("mukul98s.core.keymaps")
-require("mukul98s.core.colorscheme")
-require("mukul98s.plugins.autopairs")
-require("mukul98s.plugins.comment")
-require("mukul98s.plugins.gitsigns")
-require("mukul98s.plugins.lualine")
-require("mukul98s.plugins.nvim-cmp")
-require("mukul98s.plugins.nvim-tree")
-require("mukul98s.plugins.telescope")
-require("mukul98s.plugins.treesitter")
--- require("mukul98s.plugins.web-devicons")
-require("mukul98s.plugins.lsp.lspconfig")
-require("mukul98s.plugins.lsp.lspsaga")
-require("mukul98s.plugins.lsp.mason")
-require("mukul98s.plugins.lsp.null-ls")
+require "core"
+
+local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
+
+if custom_init_path then
+  dofile(custom_init_path)
+end
+
+require("core.utils").load_mappings()
+
+local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
+
+-- bootstrap lazy.nvim!
+if not vim.loop.fs_stat(lazypath) then
+  require("core.bootstrap").gen_chadrc_template()
+  require("core.bootstrap").lazy(lazypath)
+end
+
+dofile(vim.g.base46_cache .. "defaults")
+vim.opt.rtp:prepend(lazypath)
+require "plugins"
