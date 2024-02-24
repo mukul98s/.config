@@ -11,7 +11,6 @@ set -gx TERM xterm-256color
 set -gx EDITOR nvim
 
 set -x PATH /home/mukul98s/.local/bin $PATH
-set -x GOPATH /home/mukul98s/go/
 
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_display_user yes
@@ -20,15 +19,15 @@ set -g theme_hostname always
 
 set -x BUN_INSTALL "$HOME/.bun"
 set -x PATH "$BUN_INSTALL/bin" $PATH
-set -x PATH $GOPATH/bin $PATH
+set -x PATH $PATH /usr/local/go/bin/
 
 # Toggle Battery Conversation Mode
 function cmode
     echo (if set -q argv[1]; echo $argv[1]; else; echo 1; end) | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode >/dev/null
 end
 
-load_nvm >/dev/stderr
-
+# Setup node
+nvm use default > /dev/null 2>&1
 
 alias cl=clear
 alias pp="cd ~/Development/personal-project/"
@@ -54,8 +53,6 @@ alias treckme_server="ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@3.110.104.2"
 alias bewtee_server="ssh -i ~/Documents/keys/mdhama-pro.pem ubuntu@15.206.208.83"
 alias gr="go run"
 alias gb="go build"
-~
+
 
 set -g fish_user_paths /usr/local/bin
-set -x PATH $HOME/.rbenv/bin $PATH
-status --is-interactive; and . (rbenv init -|psub)
